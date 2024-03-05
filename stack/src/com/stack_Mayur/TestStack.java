@@ -38,7 +38,7 @@ public class TestStack {
 	    	}
 	    	System.out.println();
 	    }	    
-	     int size() {
+	    public int size() {
 	        return idx;
 	    }
 	     boolean isEmpty() {
