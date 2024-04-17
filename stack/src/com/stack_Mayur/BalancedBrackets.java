@@ -3,7 +3,6 @@ package com.stack_Mayur;
 import java.util.Stack;
 
 public class BalancedBrackets {
-	
 	public static boolean isValid(String s) {
 		Stack<Character> stack = new Stack<Character>();
 
@@ -24,7 +23,6 @@ public class BalancedBrackets {
 		}
 		return stack.isEmpty();
 	}
-
 	public static void main(String[] args) {
 		String s1 = "((()))";
 		String s2 = "((){}[])";

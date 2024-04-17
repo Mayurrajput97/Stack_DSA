@@ -42,11 +42,15 @@ public class TestStack {
 	        return idx;
 	    }
 	     boolean isEmpty() {
-	    	 if(idx == 0) return true;
+	    	 if(idx == 0) {
+	    		 return true;
+	    	 }
 	    	 else return false;
 	    }
 	     boolean isFull() {
-	    	 if(idx == arr.length) return true;
+	    	 if(idx == arr.length) {
+	    		 return true;
+	    	 }
 	    	 else return false;
 	    }
 	}
@@ -63,7 +67,6 @@ public class TestStack {
 
         st.pop();
         st.display();
-
 
         System.out.println("Stack size after popping: " + st.size());
         System.out.println("Top element after popping: " + st.peek());
